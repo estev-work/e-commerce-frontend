@@ -1,6 +1,7 @@
 import React from 'react';
 import style from "./TopMenu.module.scss";
-const TopMenu = () => {
+
+const TopMenu:React.FC = () => {
 
 	return (
 		<div className={style.container}>
