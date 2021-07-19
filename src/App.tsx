@@ -1,12 +1,12 @@
 import React from 'react';
-import TopMenu from "./Header/TopMenu/TopMenu";
+import Header from "./components/Header/Header";
 
 const App:React.FC = () => {
 	return (
-		<div>
-			<TopMenu/>
+		<React.Fragment>
+			<Header/>
 			<h1>Test content!</h1>
-		</div>
+		</React.Fragment>
 	)
 }
 

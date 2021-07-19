@@ -1,7 +1,11 @@
-import React from 'react';
+import React, {FC} from 'react';
 import style from "./TopMenu.module.scss";
-
-const TopMenu:React.FC = () => {
+interface TopMenuProps{
+	logo?:string;
+	menu?:string[];
+	cart?:number;
+}
+const TopMenu:FC<TopMenuProps> = () => {
 
 	return (
 		<div className={style.container}>
